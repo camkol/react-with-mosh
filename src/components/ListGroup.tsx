@@ -10,6 +10,8 @@ function ListGroup({ items, heading, onSelectItem }: Props) {
   // Hook
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
+  heading = "";
+
   return (
     <>
       <h1>{heading}</h1>
